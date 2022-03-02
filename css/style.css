@@ -1,3 +1,50 @@
-body {
-    background-color: aqua;
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* COMMON */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+body {
+    background-color: #b7d0dd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* #header-logo-img {
+    margin: 0 .5em 0 1em;
+}
+ */
+
